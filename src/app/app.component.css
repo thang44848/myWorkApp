@@ -1,0 +1,49 @@
+.row {
+    display: flex;
+    margin: 2px;
+    height: 80rem;
+    width: 100%;
+    min-width: 600px;
+}
+
+.col {
+    padding: 5px !important;
+}
+
+.btn {
+    padding: .375rem .15rem;
+}
+
+.left-column {
+    width: 200px;
+    border-right:1px solid black;
+    padding: 5px ;
+}
+
+.middle-column {
+    min-width: 100px;
+}
+
+.right-column { 
+    width: 300px;
+    border-left:1px solid black;
+    padding: 5px ;
+}
+
+.enter-number {
+    max-width: 200px;
+    padding: 0 5px 0 5px;
+}
+.dropdown-option {
+    max-width: 100px;
+}
+
+.answer {
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    row {
+        overflow-x: auto;
+    }
+}
